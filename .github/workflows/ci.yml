@@ -215,7 +215,7 @@ jobs:
           semver_only: true
 
       - name: Download build
-        uses: actions/download-artifact@v2.0.8
+        uses: actions/download-artifact@v4.1.7
         with:
           name: build-StandaloneWindows64
           path: build/StandaloneWindows64
@@ -244,7 +244,7 @@ jobs:
           semver_only: true
 
       - name: Download build
-        uses: actions/download-artifact@v2.0.8
+        uses: actions/download-artifact@v4.1.7
         with:
           name: build-WebGL
           path: build/WebGL
@@ -273,7 +273,7 @@ jobs:
           semver_only: true
 
       - name: Download build
-        uses: actions/download-artifact@v2.0.8
+        uses: actions/download-artifact@v4.1.7
         with:
           name: build-Android
           path: build/Android
